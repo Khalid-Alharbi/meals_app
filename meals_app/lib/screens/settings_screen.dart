@@ -44,9 +44,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final GlobalKey<ScaffoldState> _scaffoldKey =
+        new GlobalKey<ScaffoldState>();
+
     return Scaffold(
+      key: _scaffoldKey,
       appBar: AppBar(
-        title: Text("Settings!"),
+        title: const Text("Settings!"),
         actions: [
           IconButton(
               onPressed: () {
@@ -127,6 +131,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
         ],
       ),
+      // floatingActionButton: FloatingActionButton(
+      //   child: Icon(Icons.list),
+      //   onPressed: () {
+      //     _scaffoldKey.currentState!.openDrawer();
+      //   },
+      // ),
     );
   }
 }
