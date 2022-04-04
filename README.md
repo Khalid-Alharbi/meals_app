@@ -1,10 +1,11 @@
 # meals_app
 
-A new Flutter project.
+the meal app to practice the ability to navigate between screen and being able to send data through the navigation function and back to the previous screen without state management
 
 ## Getting Started
 
-the meal app to practice the ability to navigate between screen and being able to send data through the navigation function
+
+This project is a starting point for a Flutter application.
  
 A few resources to get you started if this is your first Flutter project:
 
